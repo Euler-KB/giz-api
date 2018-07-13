@@ -1,0 +1,188 @@
+﻿[
+  {
+    "ProductType": "Fertilizer",
+    "Classification": "Organic",
+    "Name": "DUMMY-FERT-1",
+    "Brand": [ "PK20", "3-CEES", "NPK" ],
+    "Crops": [ "Orange", "Pear", "Sorghum", "Millet" ],
+    "LifeCycle": [
+      {
+        "Name": "First Week",
+        "Description": "Apply to soil a salty solution to increase moisture content and vaporize the acidic elements..."
+      },
+      {
+        "Name": "Second Week",
+        "Description": "Sprout dead leaves on the surface of the soil to reduce heat...."
+      },
+      {
+        "Name": "Third Week",
+        "Description": "Put some content here to describe what happens during this week....as you wish"
+      },
+      {
+        "Name": "Harvesting",
+        "Description": "Some of the best harvesting tips for this product can be placed here with additional images describing the process"
+      }
+    ],
+    "Solutions": [
+      {
+        "Statement": "Redening of leaves"
+      },
+      {
+        "Statement": "Hole in leaves"
+      },
+      {
+        "Statement": "Malnurished roots"
+      }
+    ],
+    "Dealer": "dealer01"
+  },
+  {
+    "ProductType": "Fertilizer",
+    "Name": "DUMMY-FERT-2",
+    "Classification": "Inorganic",
+    "Brand": [ "LVK", "B2K" ],
+    "Crops": [ "Lemon", "Mango" ],
+    "LifeCycle": [
+      {
+        "Name": "First Week",
+        "Description": "Apply to soil a salty solution to increase moisture content and vaporize the acidic elements..."
+      },
+      {
+        "Name": "Second Week",
+        "Description": "Sprout dead leaves on the surface of the soil to reduce heat...."
+      },
+      {
+        "Name": "Third Week",
+        "Description": "Put some content here to describe what happens during this week....as you wish"
+      },
+      {
+        "Name": "Harvesting",
+        "Description": "Some of the best harvesting tips for this product can be placed here with additional images describing the process"
+      }
+    ],
+    "Solutions": [
+      {
+        "Statement": "More yield."
+      },
+      {
+        "Statement": "Reduced harvest size"
+      }
+    ],
+    "Dealer": "dealer01"
+  },
+  {
+    "ProductType": "Fungicide",
+    "Classification": "Organic",
+    "Name": "DUMMY-FUNGICIDE-1",
+    "Brand": [ "BAT4000", "LVR" ],
+    "Crops": [ "Rice", "Pawpaw" ],
+    "LifeCycle": [
+      {
+        "Name": "Application",
+        "Description": "Apply to soil a salty solution to increase moisture content and vaporize the acidic elements..."
+      },
+      {
+        "Name": "Harvest Tips",
+        "Description": "Here goes some best harvesting tips using the products. You can include other detailed description here"
+      }
+    ],
+    "Solutions": [
+      {
+        "Statement": "Kill insecticides"
+      },
+      {
+        "Statement": "Boost yield sizes"
+      }
+    ],
+    "Dealer": "dealer01"
+  },
+  {
+    "ProductType": "Herbicide",
+    "Classification": "Organic",
+    "Name": "Rasayanzine",
+    "Brand": [ "ClassA", "ClassB" ],
+    "Crops": [ "Vegetables" ],
+    "Solutions": [
+      {
+        "Statement": "Heavy roots"
+      },
+      {
+        "Statement": "Weak leaves"
+      },
+      {
+        "Statement": "Weak roots"
+      }
+    ],
+    "Dealer": "dealer01"
+
+  },
+  {
+    "ProductType": "Herbicide",
+    "Classification": "Inorganic",
+    "Name": "Ashtalk",
+    "Brand": [ "2KB", "CCTV" ],
+    "Crops": [ "Vegetables" ],
+    "Solutions": [
+      {
+        "Statement": "Leaf infection"
+      },
+      {
+        "Statement": "Shrunk stem"
+      },
+      {
+        "Statement": "Colored discharge"
+      }
+    ],
+    "Dealer": "dealer01"
+
+  },
+  {
+    "ProductType": "Weedicide",
+    "Classification": "Organic",
+    "Name": "RoundUp",
+    "Brand": [ "Default" ],
+    "Crops": [ "Any" ],
+    "Solutions": [
+      {
+        "Statement": "Burn"
+      },
+      {
+        "Statement": "No side effect"
+      }
+    ],
+    "Dealer": "dealer02"
+  },
+  {
+    "ProductType": "Herbicide",
+    "Classification": "Organic",
+    "Name": "WeedKill",
+    "Brand": [ "Isolated" ],
+    "Crops": [ "Bamboo" ],
+    "Dealer": "dealer02"
+  },
+  {
+    "ProductType": "Herbicide",
+    "Classification": "Organic",
+    "Name": "Gripper",
+    "Brand": [ "Maize" ],
+    "Crops": [ "Any" ],
+    "Dealer": "dealer02"
+  },
+  {
+    "ProductType": "Fungicide",
+    "Classification": "Organic",
+    "Name": "3-in-1 Concentrate",
+    "Brand": [ "Safer" ],
+    "Crops": [ "Maize", "Acacia", "Manago" ],
+    "Dealer": "dealer01"
+  },
+  {
+    "ProductType": "Seeds",
+    "Classification": "Organic",
+    "Name": "Pear seeds",
+    "Brand": [],
+    "Crops": [ "Pear" ],
+    "Dealer": "dealer03"
+  }
+
+]

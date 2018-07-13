@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2FDA7AFA-093B-48B4-B2F1-E2D2ED47E45D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>GIZ.Models</RootNamespace>
+    <AssemblyName>GIZ.Models</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkProfile>Profile49</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="BeginActivateAccountModel.cs" />
+    <Compile Include="CompleteAccountActivationModel.cs" />
+    <Compile Include="DealerQueryParameters.cs" />
+    <Compile Include="DTO\LifeCycleTagModel.cs" />
+    <Compile Include="DTO\LocationInfo.cs" />
+    <Compile Include="DTO\AuthenticationTicket.cs" />
+    <Compile Include="DTO\MediaModel.cs" />
+    <Compile Include="DTO\ProduceModelInfo.cs" />
+    <Compile Include="DTO\ProductItemSummary.cs" />
+    <Compile Include="DTO\ProductLifeCycleModel.cs" />
+    <Compile Include="DTO\ProductModel.cs" />
+    <Compile Include="DTO\ProductPropertyModel.cs" />
+    <Compile Include="DTO\ProductSolutionModel.cs" />
+    <Compile Include="DTO\ProductTypeInfo.cs" />
+    <Compile Include="DTO\ProductViewModel.cs" />
+    <Compile Include="DTO\RegionInfo.cs" />
+    <Compile Include="DTO\RegisterUserModel.cs" />
+    <Compile Include="DTO\UserModel.cs" />
+    <Compile Include="ForgotPasswordModel.cs" />
+    <Compile Include="KnownProductTypes.cs" />
+    <Compile Include="KnownRegions.cs" />
+    <Compile Include="LoginModel.cs" />
+    <Compile Include="OneOfAttribute.cs" />
+    <Compile Include="ProductClassification.cs" />
+    <Compile Include="ProductQueryParameters.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RefreshTokenModel.cs" />
+    <Compile Include="ResetPasswordModel.cs" />
+    <Compile Include="Responses\APIResponse.cs" />
+    <Compile Include="Responses\PaginatedData.cs" />
+    <Compile Include="Responses\ValidationField.cs" />
+    <Compile Include="UserAccountType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.ComponentModel.DataAnnotations.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+</Project>

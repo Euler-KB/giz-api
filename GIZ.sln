@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GIZ.API", "GIZ.API\GIZ.API.csproj", "{19EBD5AB-26D9-4B13-A9FF-261FAB66E86D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GIZ.Models", "GIZ.Models\GIZ.Models.csproj", "{2FDA7AFA-093B-48B4-B2F1-E2D2ED47E45D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19EBD5AB-26D9-4B13-A9FF-261FAB66E86D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19EBD5AB-26D9-4B13-A9FF-261FAB66E86D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19EBD5AB-26D9-4B13-A9FF-261FAB66E86D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19EBD5AB-26D9-4B13-A9FF-261FAB66E86D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FDA7AFA-093B-48B4-B2F1-E2D2ED47E45D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FDA7AFA-093B-48B4-B2F1-E2D2ED47E45D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FDA7AFA-093B-48B4-B2F1-E2D2ED47E45D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FDA7AFA-093B-48B4-B2F1-E2D2ED47E45D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

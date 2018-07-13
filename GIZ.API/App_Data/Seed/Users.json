@@ -1,0 +1,114 @@
+﻿[
+
+  {
+    "Username": "dealer01",
+    "Password": "de@ler-p@ssword",
+    "Phone": "0501583982",
+    "Email": "euler-kb@live.com",
+    "AccountType": "Dealer",
+    "FullName": "Kofi Manjesi",
+    "Companies": [
+      {
+        "Name": "God Blessings Chemical Dealers",
+        "Location": "Berekusu",
+        "Region": "Northern",
+        "Country": "Ghana",
+        "Phone": "0501583982",
+        "Email": "GODblessing-chem@gmail.com",
+        "EstablishmentDate": "2/4/2006",
+        "Comment": "This was our initial startup location. We are now bigger!",
+        "Branches": [
+          {
+            "Region": "Upper West",
+            "Country": "Ghana",
+            "Location": "Wako Bar",
+            "EstablishmentDate": "3/3/2009",
+            "Comment": "The second branch created after tribal wars in the Upper East ceased!"
+          },
+          {
+            "Region": "Upper East",
+            "Country": "Ghana",
+            "Location": "Opposite Yuripamba Company",
+            "EstablishmentDate": "6/6/2009",
+            "Comment": "Another fufilled project that was initiated after we received funding from some internation organizations!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Username": "dealer02",
+    "Password": "s-p@ssword",
+    "Phone": "0558057444",
+    "Email": "eulergkb@gmail.com",
+    "AccountType": "Dealer",
+    "FullName": "Stanley Smith",
+    "Companies": [
+      {
+        "Name": "Nyame Na Aye",
+        "Location": "Mankesim",
+        "Region": "Northern",
+        "Phone": "0558057444",
+        "Email": "eulergkb@gmail.com",
+        "Country": "Ghana",
+        "EstablishmentDate": "5/6/2012",
+        "Comment": "Our main head office",
+        "Branches": [
+          {
+            "Region": "Upper West",
+            "Country": "Ghana",
+            "Location": "Garrete Juction",
+            "EstablishmentDate": "6/6/2012",
+            "Comment": "Another branch we established for the upper west guys"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Username": "dealer03",
+    "Password": "t#pass~",
+    "Phone": "0541231230",
+    "Email": "kingh01@gmail.com",
+    "AccountType": "Dealer",
+    "FullName": "Nelson Stunts",
+    "Companies": [
+      {
+        "Phone": "0541231230",
+        "Email": "kingh01@gmail.com",
+        "Name": "Living God Enterprise",
+        "Location": "Yendi",
+        "Region": "Upper West",
+        "EstablishmentDate": "2/2/2016",
+        "Country": "Ghana"
+      }
+    ]
+  },
+  {
+    "Username": "admin01",
+    "Password": "@dmin-p@ssword",
+    "Phone": "0501583981",
+    "Email": "kofi@trotrotractor.com",
+    "AccountType": "Administrator",
+    "FullName": "Dummy Admin"
+  },
+  {
+    "Username": "farmer01",
+    "Password": "f@rmer-p@ssword",
+    "Phone": "0501583980",
+    "Email": "eulergkb@gmail.com",
+    "AccountType": "Farmer",
+    "FullName": "Dummy Farmer",
+    "Location": "Agona Swedru"
+  },
+  {
+    "Username": "farmer02",
+    "Password": "f@rmer2-p@ssword",
+    "Phone": "0501583983",
+    "Email": "charles512@gmail.com",
+    "AccountType": "Farmer",
+    "FullName": "Farmer Charles",
+    "Location": "Konongo"
+  }
+
+]

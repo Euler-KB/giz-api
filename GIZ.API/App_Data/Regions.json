@@ -1,0 +1,32 @@
+﻿[
+  {
+    "Name": "Upper West",
+    "Code": "UW",
+    "Sector": "North",
+    "Country": "Ghana",
+    "Coordinates": {
+      "Lat": 0,
+      "Lng": 0
+    }
+  },
+  {
+    "Name": "Upper East",
+    "Code": "UE",
+    "Sector":  "North",
+    "Country": "Ghana",
+    "Coordinates": {
+      "Lat": 0,
+      "Lng": 0
+    }
+  },
+  {
+    "Name": "Northern",
+    "Code": "N",
+    "Sector": "North",
+    "Country": "Ghana",
+    "Coordinates": {
+      "Lat": 0,
+      "Lng": 0
+    }
+  }
+]

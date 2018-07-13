@@ -1,0 +1,34 @@
+﻿[
+  {
+    "Name": "Mango",
+    "Regions": [ "Northern" ]
+  },
+  {
+    "Name": "Pineapple",
+    "Regions":  ["Greater Accra", "Brong Ahafo" , "Ashanti" ]
+  },
+  {
+    "Name": "Citrus",
+    "Regions": [ "Northern", "Upper West", "Upper East" ]
+  },
+  {
+    "Name": "Vegetables",
+    "Regions": [ "Northern" ]
+  },
+  {
+    "Name": "Cashew",
+    "Regions": [ "Northern" , "Upper West" , "Upper East" ]
+  },
+  {
+    "Name": "Rice",
+    "Regions": [ "Northern", "Upper West", "Upper East" ]
+  },
+  {
+    "Name": "Sorghum",
+    "Regions": [ "Northern", "Upper East" ]
+  },
+  {
+    "Name": "Soya",
+    "Regions": [ "Northern", "Upper West" ]
+  }
+]
